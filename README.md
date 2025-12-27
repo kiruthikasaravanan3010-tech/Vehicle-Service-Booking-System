@@ -1,2 +1,16 @@
-# Vehicle-Service-Booking-System
-The Vehicle Service Booking System is a menu-driven application developed using C to manage service appointments for vehicles. . The system allows users to add new service bookings, view all scheduled bookings, update service details or status, and cancel bookings when required. 
+# Vehicle Service Booking System using C
+
+## Description
+This is a menu-driven C program to manage vehicle service bookings.
+It allows users to book, view, search, update, and cancel bookings.
+
+## Features
+- Book new service
+- Display all bookings
+- Search booking by ID or customer name
+- Update booking details
+- Cancel booking
+
+## Technologies Used
+- C Programming
+- File Handling
