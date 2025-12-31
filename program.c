@@ -9,17 +9,15 @@ struct ServiceBooking {
     char serviceType[50];
     char date[15];
     char time[10];
-    int status;   // 0 = Active, 1 = Cancelled
+    int status;   
 };
 
-/* Function Declarations */
 void bookService();
 void displayBookings();
 void searchBooking();
 void updateBooking();
 void cancelBooking();
 
-/* Main Function */
 int main() {
     int choice;
 
@@ -51,7 +49,6 @@ int main() {
     return 0;
 }
 
-/* Book New Service */
 void bookService() {
     FILE *fp = fopen("bookings.txt", "a");
     struct ServiceBooking b;
@@ -79,7 +76,7 @@ void bookService() {
     printf("Enter Time (HH:MM): ");
     scanf(" %[^\n]", b.time);
 
-    b.status = 0; // Active
+    b.status = 0;
 
     fprintf(fp, "%d|%s|%s|%s|%s|%s|%d\n",
             b.bookingId, b.customerName, b.vehicleNumber,
@@ -89,7 +86,6 @@ void bookService() {
     printf("Booking created successfully!\n");
 }
 
-/* Display All Bookings */
 void displayBookings() {
     FILE *fp = fopen("bookings.txt", "r");
     struct ServiceBooking b;
@@ -121,7 +117,6 @@ void displayBookings() {
     fclose(fp);
 }
 
-/* Search Booking */
 void searchBooking() {
     FILE *fp = fopen("bookings.txt", "r");
     struct ServiceBooking b;
@@ -162,7 +157,6 @@ void searchBooking() {
     fclose(fp);
 }
 
-/* Update Booking */
 void updateBooking() {
     FILE *fp = fopen("bookings.txt", "r");
     FILE *temp = fopen("temp.txt", "w");
@@ -211,7 +205,6 @@ void updateBooking() {
         printf("Booking not found or already cancelled.\n");
 }
 
-/* Cancel Booking */
 void cancelBooking() {
     FILE *fp = fopen("bookings.txt", "r");
     FILE *temp = fopen("temp.txt", "w");
@@ -231,7 +224,7 @@ void cancelBooking() {
                   b.serviceType, b.date, b.time, &b.status) != EOF) {
 
         if (b.bookingId == id && b.status == 0) {
-            b.status = 1; // Cancelled
+            b.status = 1; 
             found = 1;
         }
 
@@ -251,3 +244,4 @@ void cancelBooking() {
     else
         printf("Booking not found or already cancelled.\n");
 }
+
