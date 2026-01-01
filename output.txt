@@ -1,0 +1,177 @@
+---------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+---------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+-------------------------------------------------------------------
+Enter your choice: 1
+
+Enter Booking ID: 2001
+Enter Customer Name: SARAVANAN
+Enter Vehicle Number: TN32AB5003
+Enter Service Type: OIL CHANGE
+Enter Date (DD/MM/YYYY): 10/12/2025
+Enter Time (HH:MM): 07:00
+Booking created successfully!
+
+----------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+--------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+---------------------------------------------------------
+Enter your choice: 1
+
+Enter Booking ID: 2003
+Enter Customer Name: LAKSHIMI
+Enter Vehicle Number: TN33NM9865
+Enter Service Type: BRAKE INSPECTION
+Enter Date (DD/MM/YYYY): 25/12/2025
+Enter Time (HH:MM): 10:00
+Booking created successfully!
+
+----------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+----------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+---------------------------------------------------------------
+Enter your choice: 1
+
+Enter Booking ID: 2007
+Enter Customer Name: GEETHA
+Enter Vehicle Number: TN20FT3654
+Enter Service Type: PUNCTURE REPAIR
+Enter Date (DD/MM/YYYY): 30/12/2025
+Enter Time (HH:MM): 12:30
+Booking created successfully!
+
+---------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+-------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+---------------------------------------------------------
+Enter your choice: 2
+
+BookingID    Customer       Vehicle     	 Service       	 	Date       Time   Status
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2001       SARAVANAN    TN32AB5003   OIL CHANGE         10/12/2025   07:00  Active
+2003      LAKSHIMI       TN33NM9865   BRAKE INSPECTION   25/12/2025	 10:00 	Active
+2007      GEETHA        TN20FT3654   PUNCTURE REPAIR   16/12/2025 	12:30   Active
+
+----------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+---------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+-------------------------------------------------------------------
+Enter your choice: 3
+Enter Booking ID or Customer Name: 2005
+Booking not found!
+
+---------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+--------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+-----------------------------------------------------------
+Enter your choice: 3
+Enter Booking ID or Customer Name: 2001
+
+Booking Found:
+Booking ID : 2001
+Customer   : SARAVANAN
+Vehicle    : TN32AB5003
+Service    : OIL CHANGE
+Date       : 10/12/2025
+Time       : 07:00
+Status     : Active
+
+---------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+--------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+------------------------------------------------------------
+Enter your choice: 4
+Enter Booking ID to update: 2007
+Enter New Service Type: COOLING SYSTEM REPAIR
+Enter New Date: 31/12/2025
+Enter New Time: 11:30
+Booking updated successfully!
+
+----------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+----------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+------------------------------------------------------------------
+Enter your choice: 5
+Enter Booking ID to cancel: 2003
+Booking cancelled successfully!
+
+----------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+---------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+---------------------------------------------------------
+Enter your choice: 2
+
+BookingID   Customer    	  Vehicle        Service        		 Date         Time  	Status
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2001     SARAVANAN   TN32AB5003   OIL CHANGE    	        10/12/2025    07:00 	Active
+2003    LAKSHIMI     TN33NM9865   BRAKE INSPECTION         25/12/2025    10:00     Cancelled
+2007    GEETHA      TN20FT3654   COOLING SYSTEM REPAIR  31/12/2025    11:30      Active
+
+---------------------------------------------------------------
+VEHICLE SERVICE BOOKING SYSTEM
+-------------------------------------------------------------
+1. Book Service
+2. Display All Bookings
+3. Search Booking
+4. Update Booking
+5. Cancel Booking
+0. Exit
+----------------------------------------------------------
+Enter your choice: 0
+Exiting program...
+
+
