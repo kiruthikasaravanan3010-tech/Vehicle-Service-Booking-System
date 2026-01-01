@@ -14,3 +14,11 @@ It allows users to book, view, search, update, and cancel bookings.
 ## Technologies Used
 - C Programming
 - File Handling
+
+## How to Run
+1. Compile using: gcc main.c
+2. Run using: ./a.out
+
+## Author
+Name:Kiruthika S
+Register Number:732925ITR050
